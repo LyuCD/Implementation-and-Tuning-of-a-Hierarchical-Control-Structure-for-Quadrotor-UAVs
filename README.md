@@ -1,1 +1,3 @@
 # Implementation-and-Tuning-of-a-Hierarchical-Control-Structure-for-Quadrotor-UAVs
+This project developed a UAV control system based on a three-level PID architecture, consisting of position control (outer loop), velocity control (middle loop), and attitude control (inner loop). Built upon the dynamic model of a quadrotor, the system adopts a cascaded control structure to ensure stable 3D flight and accurate trajectory tracking.
+I was mainly responsible for control parameter design, gain tuning, and simulation testing. By carefully adjusting each level of the PID controllers, the UAV was able to achieve smooth takeoff, precise hovering, and stable flight along predefined trajectories.
